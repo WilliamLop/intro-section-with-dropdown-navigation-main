@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__container">
+      <!-- Logo -->
+      <figure class="figure__logo">
+        <img src="images/logo.svg" alt="" class="logo__img">
+      </figure>
+      <!-- Nav bar -->
+      <div class="nav__container">
+        <div class="nav__contenedor">
+          <!-- Nav bar Dropdown -->
+          <nav class="nav__dropdown">
+            <ul class="dropdown__list">
+              <li class="nav__item">
+                <a href="" class="drop__link nav__link">
+                  Features
+                  <img src="images/icon-arrow-down.svg" alt="" class="icon__arrow">
+                </a>
+              </li>
+              <ul class="dropdown__list--content">
+                <li class="dropdown__item">
+                  <a href="" class="drop__link--content">
+                    <img src="images/icon-todo.svg" alt="">
+                    Todo List
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="" class="drop__link--content">
+                    <img src="images/icon-calendar.svg" alt="">
+                    Calendar
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="" class="drop__link--content">
+                    <img src="images/icon-reminders.svg" alt="">
+                    Reminders
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="" class="drop__link--content">
+                    <img src="images/icon-planning.svg" alt="">
+                    Planning
+                  </a>
+                </li>
+              </ul>
+            </ul>
+            <ul class="dropdown__list">
+              <li class="nav__item">
+                <a href="" class="drop__link nav__link">
+                  Company
+                  <img src="images/icon-arrow-down.svg" alt="" class="icon__arrow">
+                </a>
+              </li>
+              <ul class="dropdown__list--content">
+                <li class="dropdown__item">
+                  <a href="" class="drop__link--content">
+                    History
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="" class="drop__link--content">
+                    Our Team
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="" class="drop__link--content">
+                    Big
+                  </a>
+                </li>
+              </ul>
+            </ul>              
+            <nav class="nav__content">
+              <ul class="nav__list grid-1 flex">
+                <li class="nav__item"><a href="#" class="nav__link">Careers</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+              </ul>
+            </nav>
+          </nav>
+  
+          <div class="container__btns grid-1 flex">
+            <button class="btn btn__login">Login</button>
+            <button class="btn btn__register">Register</button>
+          </div>
+        </div>
+      </div>  
+        <!-- Icon Menu -->
+      <a href="" class="box__model" id="menu">
+        <img src="images/icon-menu.svg" class="img__menu" alt="">
+      </a>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="main__container">
+      <section class="section__welcome">
+        <figure class="figure__welcome">
+          <img src="images/image-hero-mobile.png" alt="" class="img__welcome">
+        </figure>
+
+        <div class="welcome__info grid-1 container">
+          <div class="welcome__info--content grid-1">
+            <h1 class="welcome__title">Make <span>remote work</span></h1>
+            <p class="welcome__paragraph">
+              Get your team in sync, no matter your location.
+              Streamline processes, create team rituals, and watch productivity soar.
+            </p>
+            <button class="btn__learn">Learn more</button>
+          </div>
+          <div class="marcas">
+            <img src="imageS/client-databiz.svg" alt="" class="img__marca">
+            <img src="imageS/client-audiophile.svg" alt="" class="img__marca">
+            <img src="imageS/client-meet.svg" alt="" class="img__marca">
+            <img src="imageS/client-maker.svg" alt="" class="img__marca">
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
